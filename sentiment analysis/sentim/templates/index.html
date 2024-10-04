@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        h1{
+            text-align: center;
+            background-color: rgb(102, 205, );
+        }
+        input{
+            width: 25%;
+            padding: 5px;
+            margin: 5px;
+            align-items: center;
+        }
+        textarea{
+            width: 20%;
+            height: 150px;
+            padding: 6px;
+            margin: 4px;
+        }
+        button{
+            margin: 3px;
+        }
+        form{
+            text-align: center;
+        }
+        .center{
+            text-align: center;
+        }
+        div{
+            text-align: center;
+            font-size: 45px;
+        }
+    </style>
+    <title>Review Sentiment Analysis</title>
+</head>
+<body>
+    <h2>Enter Your Review</h2>
+    <form action="/prediction" method="post">
+        <textarea name="text" rows="4" cols="50"></textarea><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
